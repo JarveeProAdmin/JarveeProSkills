@@ -1,0 +1,202 @@
+{
+  "tasks": {
+    "192.168.0.120:6473:Facebook": {
+      "ts": 1772763989.945493,
+      "value": [
+        {
+          "Platform": "Facebook",
+          "Name": "Post hello word",
+          "TaskType": "NewPost",
+          "AccountJson": "[]",
+          "AccountIds": [],
+          "MainUseParam": false,
+          "AccountUseNum": 1,
+          "UnitIndex": 0,
+          "Reallocation": false,
+          "MainKey": "Text",
+          "ParameterJson": "{}",
+          "Parameter": {},
+          "IsAIEnabled": false,
+          "IsMonitor": false,
+          "TaskSettingJson": "{\"PostPublic\": true, \"SetPublicAsDefault\": true}",
+          "FileSave": {
+            "SaveToFile": false
+          },
+          "Success": 0,
+          "Fail": 0,
+          "Schedule": 0.0,
+          "Status": "Ready",
+          "BrowserType": "DriverBrowser",
+          "RunType": "None",
+          "IsRun": false,
+          "RunTime": "1900-01-01T00:00:00",
+          "RunTimeNum": 0,
+          "Id": "A1772443698288b00aa00bb2f94761b1",
+          "CreateTime": "2026-03-02T17:28:18.2887133",
+          "UpdateTime": "2026-03-03T11:27:30.8686812",
+          "IsDelete": false,
+          "CreateTimeUnix": 1772443698288,
+          "UpdateTimeUnix": 1772508450868
+        },
+        {
+          "Platform": "Facebook",
+          "Name": "FB_Post_JarveePro_20260306_1020",
+          "Description": "JarveePro 励志营销帖 A",
+          "TaskType": "NewPost",
+          "AccountJson": "[\"A1772443223304\", \"A1772679156380\", \"A1772679156392\", \"A1772679156409\", \"A1772679156424\"]",
+          "AccountIds": [
+            "A1772443223304",
+            "A1772679156380",
+            "A1772679156392",
+            "A1772679156409",
+            "A1772679156424"
+          ],
+          "MainUseParam": false,
+          "AccountUseNum": 1,
+          "UnitIndex": 0,
+          "Reallocation": true,
+          "MainKey": "Text",
+          "ParameterJson": "{\"Text\": {\"SingleUseData\": {\"Min\": 1, \"Max\": 1}, \"UseNoData\": false, \"AccountUseNum\": 1, \"UnitUseNum\": {\"Min\": 1, \"Max\": 1}, \"UseNum\": 100, \"RandomUse\": false, \"AiSetting\": null, \"Parameters\": [\"JarveePro 讓社媒矩陣變成自動增長引擎：AI 洞察、批量內容、智能節奏，一次配置終身增長，現在行動就少走一年彎路。\"]}, \"PhotoPath\": {\"SingleUseData\": {\"Min\": 1, \"Max\": 1}, \"UseNoData\": false, \"AccountUseNum\": 1, \"UnitUseNum\": {\"Min\": 1, \"Max\": 1}, \"UseNum\": 100, \"RandomUse\": false, \"AiSetting\": null, \"Parameters\": [\"/home/node/.openclaw/workspace/Image/JarveePro Facebook.png\", \"/home/node/.openclaw/workspace/Image/75BB70EA-1342-4203-9C1A-D29BF8BEC688.png\"]}}",
+          "Parameter": {
+            "Text": {
+              "Parameters": [
+                "JarveePro 讓社媒矩陣變成自動增長引擎：AI 洞察、批量內容、智能節奏，一次配置終身增長，現在行動就少走一年彎路。"
+              ],
+              "SingleUseData": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNoData": false,
+              "AccountUseNum": 1,
+              "UnitUseNum": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNum": 100,
+              "RandomUse": false
+            },
+            "PhotoPath": {
+              "Parameters": [
+                "/home/node/.openclaw/workspace/Image/JarveePro Facebook.png",
+                "/home/node/.openclaw/workspace/Image/75BB70EA-1342-4203-9C1A-D29BF8BEC688.png"
+              ],
+              "SingleUseData": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNoData": false,
+              "AccountUseNum": 1,
+              "UnitUseNum": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNum": 100,
+              "RandomUse": false
+            }
+          },
+          "IsAIEnabled": false,
+          "IsMonitor": false,
+          "TaskSettingJson": "{\"PostPublic\": true, \"SetPublicAsDefault\": true}",
+          "FileSave": {
+            "SaveToFile": false
+          },
+          "Success": 0,
+          "Fail": 0,
+          "Schedule": 0.0,
+          "Status": "Waiting",
+          "BrowserType": "DriverBrowser",
+          "RunType": "None",
+          "IsRun": false,
+          "RunTime": "1900-01-01T00:00:00",
+          "RunTimeNum": 0,
+          "Id": "A177276365165700bfc902e963449fa6",
+          "CreateTime": "2026-03-06T10:20:51.6570885",
+          "UpdateTime": "2026-03-06T10:20:51.6570885",
+          "IsDelete": false,
+          "CreateTimeUnix": 1772763651657,
+          "UpdateTimeUnix": 1772763651657
+        }
+      ]
+    },
+    "192.168.0.120:6473:Instagram": {
+      "ts": 1772768042.0341606,
+      "value": [
+        {
+          "Platform": "Instagram",
+          "Name": "IG_Post_JarveePro_20260306_1020",
+          "Description": "JarveePro 励志营销帖 B",
+          "TaskType": "Post",
+          "AccountJson": "[\"A1772679213924\",\"A1772679213944\"]",
+          "AccountIds": [
+            "A1772679213924",
+            "A1772679213944"
+          ],
+          "MainUseParam": false,
+          "AccountUseNum": 1,
+          "UnitIndex": 2,
+          "Reallocation": true,
+          "MainKey": "Text",
+          "ParameterJson": "{\"Text\":{\"Parameters\":[\"把 JarveePro 當成你的 24/7 社媒搭檔：智能排程+真人指紋發帖，讓品牌形象連線不停機，敢於穩定輸出的人才配得上高轉化。\"],\"SingleUseData\":{\"Min\":1,\"Max\":1},\"UseNoData\":false,\"AccountUseNum\":1,\"UnitUseNum\":{\"Min\":1,\"Max\":1},\"UseNum\":100,\"RandomUse\":false},\"PhotoPath\":{\"Parameters\":[\"C:\\\\Users\\\\Administrator\\\\.openclaw\\\\workspace\\\\Image\\\\jarveepro_free_banner.png\",\"C:\\\\Users\\\\Administrator\\\\.openclaw\\\\workspace\\\\Image\\\\JarveePro AI Agent.png\"],\"SingleUseData\":{\"Min\":1,\"Max\":1},\"UseNoData\":false,\"AccountUseNum\":1,\"UnitUseNum\":{\"Min\":1,\"Max\":1},\"UseNum\":100,\"RandomUse\":false}}",
+          "Parameter": {
+            "Text": {
+              "Parameters": [
+                "把 JarveePro 當成你的 24/7 社媒搭檔：智能排程+真人指紋發帖，讓品牌形象連線不停機，敢於穩定輸出的人才配得上高轉化。"
+              ],
+              "SingleUseData": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNoData": false,
+              "AccountUseNum": 1,
+              "UnitUseNum": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNum": 100,
+              "RandomUse": false
+            },
+            "PhotoPath": {
+              "Parameters": [
+                "C:\\Users\\Administrator\\.openclaw\\workspace\\Image\\jarveepro_free_banner.png",
+                "C:\\Users\\Administrator\\.openclaw\\workspace\\Image\\JarveePro AI Agent.png"
+              ],
+              "SingleUseData": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNoData": false,
+              "AccountUseNum": 1,
+              "UnitUseNum": {
+                "Min": 1,
+                "Max": 1
+              },
+              "UseNum": 100,
+              "RandomUse": false
+            }
+          },
+          "IsAIEnabled": false,
+          "IsMonitor": false,
+          "TaskSettingJson": "{\"AllowComments\": true}",
+          "FileSave": {
+            "SaveToFile": false
+          },
+          "Success": 0,
+          "Fail": 0,
+          "Schedule": 0.0,
+          "Status": "Ready",
+          "BrowserType": "DriverBrowser",
+          "RunType": "None",
+          "IsRun": false,
+          "RunTime": "1900-01-01T00:00:00",
+          "RunTimeNum": 0,
+          "Id": "A1772763663094c41d769deeb74145ba",
+          "CreateTime": "2026-03-06T10:21:03.0942185",
+          "UpdateTime": "2026-03-06T10:58:10.5601185",
+          "IsDelete": false,
+          "CreateTimeUnix": 1772763663094,
+          "UpdateTimeUnix": 1772765890560
+        }
+      ]
+    }
+  }
+}
